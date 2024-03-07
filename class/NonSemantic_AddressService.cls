@@ -1,8 +1,8 @@
 /*
-* @file            : lccLoyaltyHousehold.cls
+* @file            : some change here.cls
 * @brief           : Encapsulates the shape of a loyalty household within Salesforce
-* @business-unit   : Loyalty
-* @feature-descr   : Love's Connect Summary
+* @business-unit   : another change
+* @feature-descr   : A different desc
 * @feature-id      : 375964
 * 
 * @description     : 
@@ -293,9 +293,9 @@ public with sharing class lccLoyaltyHousehold {
 		@AuraEnabled public String Name;
 		@AuraEnabled public String NameWithoutTier;
 		@AuraEnabled public String Reason;
-        @AuraEnabled public String Icon;
-        @AuraEnabled public Boolean DisplayTier;
-        @AuraEnabled public Boolean isHiddenWhenZero;
+    @AuraEnabled public String Icon;
+    @AuraEnabled public Boolean DisplayTier;
+    @AuraEnabled public Boolean isHiddenWhenZero;
 		@AuraEnabled public String LastUpdateDate;
 		@AuraEnabled public String ExpirationDate;
 		@AuraEnabled public Decimal Value;
