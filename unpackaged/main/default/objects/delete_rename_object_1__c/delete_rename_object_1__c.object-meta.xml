@@ -153,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>delete_rename_object</label>
+    <label>delete_rename_object_1</label>
     <nameField>
         <label>delete_rename_object Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>delete_rename_object</pluralLabel>
+    <pluralLabel>delete_rename_object_1</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
