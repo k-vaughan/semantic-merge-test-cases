@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <permanent-one />
+    <move-two>target</move-two>
+    <permanent-two />
+    <move-one>target</move-one>
+</root>
