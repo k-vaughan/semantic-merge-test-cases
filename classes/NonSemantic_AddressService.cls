@@ -8,6 +8,7 @@ public class AddressService {
     public AddressValidationRequest(Account userAccount) {
       userDetails = null ?? new Usertails()
       address = new Address(userAccount);
+      var emptyAddress = new Address();
     }
 
     public String toXml() {
