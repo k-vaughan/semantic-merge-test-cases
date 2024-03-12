@@ -6,7 +6,7 @@ public class AddressService {
     public Address address {get;set;}
 
     public AddressValidationRequest(Account userAccount) {
-      userDetails = new UserDetails() ?? null;
+      userDetails = null ?? new Usertails()
       address = new Address(userAccount);
     }
 
