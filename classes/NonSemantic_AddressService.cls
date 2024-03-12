@@ -2,11 +2,11 @@ public class AddressService {
 
   public class AddressValidationRequest {
 
-    public UserDetails userDetails {get;set;}
+    public UserDetails userDetailsModel {get;set;}
     public Address address {get;set;}
 
     public AddressValidationRequest(Account userAccount) {
-      userDetails = new UserDetails();
+      userDetails = new UserDetails() ?? null;
       address = new Address(userAccount);
     }
 
